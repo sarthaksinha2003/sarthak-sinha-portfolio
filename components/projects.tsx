@@ -9,26 +9,26 @@ const projects = [
   {
     title: "Idempotent Request Processing Service",
     description:
-      "High-throughput distributed service ensuring exactly-once semantics for API requests. Built with Java and Spring Boot, featuring Redis-backed idempotency keys, exponential backoff retry logic, and comprehensive request deduplication.",
-    tech: ["Java", "Spring Boot", "Redis", "Kafka", "Docker"],
+      "Distributed idempotent request processing service ensuring exactly-once execution semantics for REST APIs. Implemented idempotency-key validation with persistent request tracking, pessimistic database locking, and multi-tier caching to safely handle concurrent requests and prevent duplicate transactions.",
+    tech: ["Java", "Spring Boot", "Spring Data JPA", "MySQL", "Docker"],
     stats: [
-      { icon: Zap, label: "Throughput", value: "10K+ RPS" },
-      { icon: Shield, label: "Reliability", value: "99.99%" },
+      { icon: Zap, label: "Concurrency Tested", value: "1000+ Requests" },
+      { icon: Shield, label: "Duplicate Protection", value: "100% Safe" },
     ],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/sarthaksinha2003/Idempotent-Request-Processing-Service",
   },
   {
-    title: "URL Redirection Traffic Control",
+    title: "URL Redirection Traffic Control Service",
     description:
-      "Scalable URL shortening and traffic management system with real-time analytics, geographic routing, and A/B testing capabilities. Handles millions of redirects with sub-millisecond latency using an in-memory cache layer.",
-    tech: ["Java", "Spring Boot", "PostgreSQL", "Redis", "AWS"],
+      "Scalable URL shortening service using Base62 encoding with collision detection and Redis-backed sliding window rate limiting. Designed to handle high request volumes with optimized database queries and distributed tracking.",
+    tech: ["Java", "Spring Boot", "JPA", "Redis", "MySQL", "Docker"],
     stats: [
-      { icon: Globe, label: "Latency", value: "<1ms" },
-      { icon: BarChart3, label: "Scale", value: "1M+ URLs" },
+      { icon: Globe, label: "Throughput", value: "1000+ Req/sec" },
+      { icon: BarChart3, label: "Response Time", value: "200ms Avg" },
     ],
     liveUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/sarthaksinha2003/URL-Redirection-Traffic-Control-Service",
   },
 ];
 
@@ -107,6 +107,8 @@ function ProjectCard({ project, index }: { project: (typeof projects)[0]; index:
                 <motion.a
                   key={ariaLabel}
                   href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={ariaLabel}
                   whileHover={{ scale: 1.1, y: -1 }}
                   whileTap={{ scale: 0.95 }}

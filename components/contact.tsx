@@ -8,20 +8,20 @@ const contacts = [
   {
     icon: Mail,
     label: "Email",
-    value: "sarthak@example.com",
-    href: "mailto:sarthak@example.com",
+    value: "sarthaksinha38@gmail.com",
+    href: "mailto:sarthaksinha38@gmail.com",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/sarthaksinha",
-    href: "#",
+    value: "https://linkedin.com/in/sarthak-sinha-9b8535324",
+    href: "https://linkedin.com/in/sarthak-sinha-9b8535324",
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/sarthaksinha",
-    href: "#",
+    value: "https://github.com/sarthaksinha2003",
+    href: "https://github.com/sarthaksinha2003",
   },
 ];
 

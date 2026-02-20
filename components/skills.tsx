@@ -7,27 +7,27 @@ import { SectionHeader } from "./section-header";
 const categories = [
   {
     title: "Languages",
-    items: ["Java", "Python", "C++", "JavaScript", "TypeScript", "SQL"],
+    items: ["Java", "Python", "JavaScript", "SQL"],
   },
   {
     title: "Backend",
-    items: ["Spring Boot", "Node.js", "REST APIs", "GraphQL", "gRPC", "Microservices"],
+    items: ["Spring Boot", "Node.js", "REST APIs", "Microservices"],
   },
   {
     title: "Distributed Systems",
-    items: ["Kafka", "RabbitMQ", "Redis", "Zookeeper", "Load Balancing", "Consensus"],
+    items: ["Redis", "Load Balancing"],
   },
   {
     title: "Databases",
-    items: ["PostgreSQL", "MongoDB", "Redis", "Cassandra", "DynamoDB", "Elasticsearch"],
+    items: ["PostgreSQL", "Redis", "MySQL", "SQL Anywhere", "MongoDB"],
   },
   {
     title: "DevOps & Cloud",
-    items: ["Docker", "Kubernetes", "AWS", "CI/CD", "Terraform", "Linux"],
+    items: ["Docker", "Kubernetes", "AWS", "CI/CD", "Linux"],
   },
   {
     title: "Tools & Practices",
-    items: ["Git", "System Design", "DSA", "TDD", "Agile", "Monitoring"],
+    items: ["Git", "System Design", "DSA", "Agile"],
   },
 ];
 

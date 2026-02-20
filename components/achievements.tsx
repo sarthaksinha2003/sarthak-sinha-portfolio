@@ -64,7 +64,7 @@ const achievements = [
   },
   {
     icon: TrendingUp,
-    value: 1900,
+    value: 1519,
     suffix: "+",
     prefix: "",
     label: "Peak Rating",
