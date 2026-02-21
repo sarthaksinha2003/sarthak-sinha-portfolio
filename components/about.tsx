@@ -49,7 +49,7 @@ export function About() {
             {/* Inner mask */}
             <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-2 border-border bg-background">
               <Image
-                src="/images/my_pictures.jpg"
+                src="/images/my_pictures.png"
                 alt="Sarthak Sinha - Software Engineer"
                 fill
                 className="object-cover"
