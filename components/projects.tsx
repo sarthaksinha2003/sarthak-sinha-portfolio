@@ -27,7 +27,7 @@ const projects = [
       { icon: Globe, label: "Throughput", value: "1000+ Req/sec" },
       { icon: BarChart3, label: "Response Time", value: "200ms Avg" },
     ],
-    liveUrl: "#",
+    liveUrl: "https://url-shortener-sb-osbl.onrender.com/health",
     githubUrl: "https://github.com/sarthaksinha2003/URL-Redirection-Traffic-Control-Service",
   },
 ];
